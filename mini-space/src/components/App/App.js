@@ -19,6 +19,10 @@ function App() {
           </a>
           <h1>Oh something else then?</h1>
           <Randomblog />
+          {/* <img
+            src="https://www.gamezebo.com/wp-content/uploads/2021/08/FalloutPipBoy_Feature-720x400.jpg"
+            alt="Pip Boy Success Logo"
+          ></img> */}
         </div>
         <div className="piece scanlines noclick" />
         <div className="piece glow noclick" />
@@ -26,5 +30,10 @@ function App() {
     </div>
   );
 }
+
+// CSS elements blocking img from loading?
+// Add as an icon instead?
+// alternatively- use text only rendering in RandomBlog component
+// or wrap in own div and style with different class?
 
 export default App;
