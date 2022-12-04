@@ -1,7 +1,12 @@
+/* Imports relevant font families to be used in application */
+
 @import url(https://fonts.googleapis.com/css?family=VT323);
 * {
   box-sizing: border-box;
 }
+
+/* Main body styling guidelines- used imported font and main colours for screen */
+
 body {
   background: #383838;
   color: #14fdce;
@@ -10,11 +15,16 @@ body {
   -webkit-font-smoothing: none;
   line-height: 1.2;
 }
+
+/* H1 element specific styling- e.g. turns all text to uppercase  */
+
 h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
+
+/* P & A element specific CSS styling here */
 p {
   margin-bottom: 2rem;
 }
@@ -40,6 +50,9 @@ a:hover {
 .noclick {
   pointer-events: none;
 }
+
+/* Frame flex and styling- orders main text elements */
+
 .frame {
   background-color: transparent;
   border-radius: 2rem;
@@ -76,6 +89,8 @@ a:hover {
 /* -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; */
 
+/* Animations for hover effect */
+
 .output {
   animation: crt-output 10ms infinite;
   background-color: #031e11;
@@ -94,6 +109,9 @@ a:hover {
     opacity: 1;
   }
 }
+
+/* Animations & effects- not clear on how all these properties work as yet... */
+
 .scanlines {
   background: linear-gradient(
     to bottom,
@@ -106,6 +124,9 @@ a:hover {
   border-radius: 2rem;
   position: absolute;
 }
+
+/* glow opacity & shading for body colour elements */
+
 .glow {
   animation: crt-glow 60s infinite;
   background: radial-gradient(
@@ -149,6 +170,9 @@ a:hover {
   font-weight: normal;
   font-style: normal;
 }
+
+/* unused styling but kept for future development */
+
 ::selection [class^="icon-"],
 ::selection [class*=" icon-"] {
   font-family: "uuxsl";
