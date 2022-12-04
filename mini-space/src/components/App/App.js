@@ -1,8 +1,11 @@
 import "./App.css";
 import React from "react";
+import { useState, useEffect } from "react";
 import Randomblog from "../RandomBlog/Randomblog";
 
 function App() {
+  const [logs, setLogs] = useState("");
+
   return (
     <div>
       <div className="emblem">
