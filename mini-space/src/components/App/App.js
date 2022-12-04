@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import { useState, useEffect } from "react";
 import Randomblog from "../RandomBlog/Randomblog";
+import { dataLogs } from "../../Data/datalogs";
 
 function App() {
   const [logs, setLogs] = useState("");
