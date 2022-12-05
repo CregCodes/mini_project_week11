@@ -28,7 +28,7 @@ function App() {
       <div className="frame">
         <div className="piece output">
           <h1>ROBCO INDUSTRIES (TM)</h1>
-          <button>#$% ATTEMPT(S) LEFT: # # </button>
+          <button className="Log-button">#$% ATTEMPT(S) LEFT: # # </button>
           <pre className="preCode">01000 01110 01001 01001</pre>
           <pre className="preCode">4%£2! 0*671 98NM# 23P%^</pre>
           <pre className="preCode">01010 10100 10100 01010</pre>
