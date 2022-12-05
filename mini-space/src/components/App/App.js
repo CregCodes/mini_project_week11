@@ -7,7 +7,9 @@ import LogButton from "../LogButton/LogButton";
 
 function App() {
   const [logs, setLogs] = useState(0);
-
+  /**Function changes index value in state by 1up to length of array-1
+   * The else statement resets the index number back to 0 to prevent app from crashing.
+   */
   function handleClick() {
     if (logs < dataLogs.length - 1) {
       setLogs(logs + 1);

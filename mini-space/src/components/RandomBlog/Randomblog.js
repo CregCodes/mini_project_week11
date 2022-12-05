@@ -1,9 +1,10 @@
 import React from "react";
 
 /** RandomBlog
- * Takes in a state & prop (to be developed)
- * Will render random "log entries" for a user to read through
- * Will be linked to a button to trigger render
+ * Takes in a state (state= logs- an index number in an array)
+ * takes in a prop (prop= data from array of objects in data file)
+ * Renders different log entries from data file
+ * Linked to button function- changes index number and displays new array object
  * For research- aim to have a dynamic render animation when button event is triggered
  */
 function Randomblog({ data, logs }) {
