@@ -6,12 +6,12 @@ import React from "react";
  * Will be linked to a button to trigger render
  * For research- aim to have a dynamic render animation when button event is triggered
  */
-function Randomblog({ dataLogs }) {
+function Randomblog({ data, logs }) {
   return (
     <>
-      <h2>Blog Title Goes Here</h2>
-      <p>log text here</p>
-      <p>date or log entry here</p>
+      <h2>{data[logs].name}</h2>
+      <p>{data[logs].logEntry}</p>
+      <p>{data[logs].date}</p>
     </>
   );
 }
