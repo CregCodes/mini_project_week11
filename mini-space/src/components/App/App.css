@@ -40,6 +40,30 @@ a:hover {
   background-color: #14fdce;
   color: #031e11;
 }
+
+.Log-button {
+  text-transform: uppercase;
+  font-family: VT323;
+  font-size: 24px;
+  text-shadow: 0rem 0.2rem 1rem #14fdce;
+  background-color: #031e11;
+  color: #14fdce;
+  text-decoration: underline;
+}
+
+button:visited {
+  border-bottom: 0.2rem solid #14fdce;
+  color: #14fdce;
+  text-decoration: none;
+}
+
+button:active,
+button:focus,
+button:hover {
+  background-color: #14fdce;
+  color: #031e11;
+}
+
 .piece {
   display: block;
   height: 100%;
@@ -126,6 +150,21 @@ a:hover {
 }
 
 /* glow opacity & shading for body colour elements */
+
+button.glow {
+  animation: crt-glow 60s infinite;
+  background: radial-gradient(
+    circle at center,
+    #1bd459 0%,
+    rgba(27, 212, 89, 0.88) 58%,
+    rgba(21, 235, 92, 0.57) 80%,
+    rgba(19, 94, 29, 0.27) 93%,
+    rgba(10, 23, 12, 0) 100%
+  );
+  opacity: 0.15;
+  pointer-events: none;
+  position: fixed;
+}
 
 .glow {
   animation: crt-glow 60s infinite;
